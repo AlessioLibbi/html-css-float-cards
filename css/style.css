@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
     }
+
+ .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+ }
+
+ .container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0px auto;
+    margin-top: 2rem;
+ }
+
+ .heading {
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+ .title {
+    margin-bottom: 40px;
+    color: #e53170;
+ }
+
+ .taxt {
+    font-size: 2rem;
+ }
